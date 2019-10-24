@@ -25,6 +25,14 @@
     "extra": {
         "branch-alias": {
             "dev-master": "5.0-dev"
+        },
+        "royalcms": {
+            "providers": [
+                "Royalcms\\Component\\Timer\\TimerServiceProvider"
+            ],
+            "aliases": {
+                "RC_Timer": "Royalcms\\Component\\Timer\\Facades\\Timer"
+            }
         }
     },
     "minimum-stability": "dev"
